@@ -17,7 +17,7 @@ In Mexico it is usual to capture the first name (with middle name when applicabl
     
 ### Schema:
   - Identifier {object}
-    - type (string, null) (codelist)
+    - juridicalPersonhood (string, null) (codelist)
     - givenName (string, null)
     - patronymicName (string, null)
     - matronymicName (string, null)
