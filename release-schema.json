@@ -1,0 +1,78 @@
+{
+  "definitions": {
+    "Identifier": {
+      "properties": {
+        "juridicalPersonhood": {
+          "title": "Juridical personhood",
+          "description": "Specify the juridical personhood of the entity that participates in this contracting process. Using the [juridicalPersonhood](https://github.com/INAImexico/ocds_nameBreakdown_extension/blob/master/codelists/juridicalPersonhood.csv) codelist.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "juridicalPersonhood.csv"
+        },
+        "givenName": {
+          "title": "Given name",
+          "description": "The given name of the natural person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "patronymicName": {
+          "title": "Patronymic name",
+          "description": "The patronymic name of the natural person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "matronymicName": {
+          "title": "Matronymic name",
+          "description": "The matronymic name of the natural person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "ContactPoint": {
+      "properties": {
+        "contactPointType": {
+          "title": "Contact point type",
+          "description": "Specify the contact point type using the [contactPointType](https://github.com/INAImexico/ocds_nameBreakdown_extension/blob/master/codelists/contactPointType.csv) codelist.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "contactPointType.csv"
+        },
+        "givenName": {
+          "title": "Given name",
+          "description": "The given name of the natural person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "patronymicName": {
+          "title": "Patronymic name",
+          "description": "The patronymic name of the natural person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "matronymicName": {
+          "title": "Matronymic name",
+          "description": "The matronymic name of the natural person.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
