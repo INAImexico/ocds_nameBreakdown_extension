@@ -5,13 +5,17 @@ In Mexico it is usual to capture the first name (with middle name when applicabl
 
 ## Proposal:
 
-### Codelist
+### Codelists:
+
+  - juridicalPersonhood
+    - naturalPerson
+    - legalPerson
 
   - contactPointType
     - contactPoint
     - attorney
     
-### Schema
+### Schema:
   - Organization {object}
     - Identifier
       - type (string, null) (codelist)
