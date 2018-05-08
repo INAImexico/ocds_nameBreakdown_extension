@@ -9,7 +9,8 @@
             "string",
             "null"
           ],
-          "codelist": "juridicalPersonhood.csv"
+          "codelist": "juridicalPersonhood.csv",
+          "openCodelist": true
         },
         "givenName": {
           "title": "Given name",
@@ -46,7 +47,8 @@
             "string",
             "null"
           ],
-          "codelist": "contactPointType.csv"
+          "codelist": "contactPointType.csv",
+          "openCodelist": true
         },
         "givenName": {
           "title": "Given name",
