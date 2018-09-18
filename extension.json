@@ -3,7 +3,7 @@
     "en": "Name breakdown"
   },
   "description": {
-    "en": "In Mexico it is usual to capture the first name (with middle name when applicable) and the surname (with the father’s surname and the mother’s surname) in a separate way. In the case of transparency obligations, it is mandatory to publish these data in separate fields. Likewise, we need to maintain the name of an organization in another separate field, in order to diference them with individuals. See discussion in https://github.com/open-contracting/standard/issues/637"
+    "en": "In Mexico it is usual to capture the first name (with middle name when applicable) and the surname (with the fatherâ€™s surname and the motherâ€™s surname) in a separate way. In the case of transparency obligations, it is mandatory to publish these data in separate fields. Likewise, we need to maintain the name of an organization in another separate field, in order to diference them with individuals. See discussion in https://github.com/open-contracting/standard/issues/637"
   },
   "compatibility": [
     "1.1"
@@ -14,5 +14,8 @@
   "codelists": [
     "juridicalPersonhood.csv",
     "contactPointType.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }
