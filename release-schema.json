@@ -2,14 +2,14 @@
   "definitions": {
     "Identifier": {
       "properties": {
-        "juridicalPersonhood": {
-          "title": "Juridical personhood",
-          "description": "Specify the juridical personhood of the entity that participates in this contracting process. Using the [juridicalPersonhood](https://github.com/INAImexico/ocds_nameBreakdown_extension/blob/master/codelists/juridicalPersonhood.csv) codelist.",
+        "legalPersonality": {
+          "title": "Legal personality",
+          "description": "Specify the legal personality of the party who participates in this contracting process. Using the [legalPersonality](https://github.com/INAImexico/ocds_nameBreakdown_extension/blob/master/codelists/legalPersonality.csv) codelist.",
           "type": [
             "string",
             "null"
           ],
-          "codelist": "juridicalPersonhood.csv",
+          "codelist": "legalPersonality.csv",
           "openCodelist": true
         },
         "givenName": {
@@ -22,7 +22,7 @@
         },
         "patronymicName": {
           "title": "Patronymic name",
-          "description": "The patronymic name of the natural person.",
+          "description": "The patronymic name of the natural person. This could be used to capture the common surname of a natural person or the first surname for hispanic countries (usually the father's surname).",
           "type": [
             "string",
             "null"
@@ -30,7 +30,7 @@
         },
         "matronymicName": {
           "title": "Matronymic name",
-          "description": "The matronymic name of the natural person.",
+          "description": "The matronymic name of the natural person. This is for the second surname in hispanic countries (usually the mother's surname)",
           "type": [
             "string",
             "null"
@@ -40,16 +40,6 @@
     },
     "ContactPoint": {
       "properties": {
-        "contactPointType": {
-          "title": "Contact point type",
-          "description": "Specify the contact point type using the [contactPointType](https://github.com/INAImexico/ocds_nameBreakdown_extension/blob/master/codelists/contactPointType.csv) codelist.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "codelist": "contactPointType.csv",
-          "openCodelist": true
-        },
         "givenName": {
           "title": "Given name",
           "description": "The given name of the natural person.",
