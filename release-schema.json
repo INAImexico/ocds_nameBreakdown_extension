@@ -30,7 +30,7 @@
         },
         "matronymicName": {
           "title": "Matronymic name",
-          "description": "The matronymic name of the natural person. This is for the second surname in hispanic countries (usually the mother's surname)",
+          "description": "The matronymic name of the natural person. This is for the second surname in hispanic countries (usually the mother's surname).",
           "type": [
             "string",
             "null"
@@ -50,7 +50,7 @@
         },
         "patronymicName": {
           "title": "Patronymic name",
-          "description": "The patronymic name of the natural person.",
+          "description": "The patronymic name of the natural person. This could be used to capture the common surname of a natural person or the first surname for hispanic countries (usually the father's surname).",
           "type": [
             "string",
             "null"
@@ -58,7 +58,7 @@
         },
         "matronymicName": {
           "title": "Matronymic name",
-          "description": "The matronymic name of the natural person.",
+          "description": "The matronymic name of the natural person. This is for the second surname in hispanic countries (usually the mother's surname).",
           "type": [
             "string",
             "null"
