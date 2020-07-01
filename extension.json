@@ -12,7 +12,7 @@
     "en": "https://github.com/contratacionesabiertas/ocds_nameBreakdown_extension"
   },
   "codelists": [
-    "legalPersonality"
+    "legalPersonality.csv"
   ],
   "schemas": [
     "release-schema.json"
